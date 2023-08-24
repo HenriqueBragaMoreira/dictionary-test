@@ -45,16 +45,16 @@ export default function Main() {
                 <hr className="w-[35.563rem] mt-11" />
               </div>
               <div className=' mt-7'>
-                <p>Meanings</p>
+                <p className='text-[#979797]'>Meanings</p>
                 <ul className=' list-disc mt-6'>{meaning.definitions.slice(0, 3).map((definition) => (
-                  <li className=' marker:text-violet-500' key={definition.definition}>{definition.definition}</li>
+                  <li className=' marker:text-violet-500 mb-5 text-sm' key={definition.definition}>{definition.definition}</li>
                   
                 ))}
                 </ul>
               </div>
-              <div className=' mt-10 flex justify-between'>
+              <div className=' mt-10 flex items-center text-[#979797]'>
               Synonyms {''}
-                <p className=' space-x-7 text-violet-500'>
+                <p className='text-sm ml-5 space-x-7 text-violet-500'>
                   
                   {dictionaryData?.[0].meanings?.[0].synonyms?.map((synonyms, index) => (
                     <span key={index}>

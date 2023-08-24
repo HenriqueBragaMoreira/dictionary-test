@@ -16,6 +16,7 @@ const config: Config = {
       spacing: {
         "128": "29.313rem",
         "256": "39.625rem",
+        "156": "35.563rem",
       },
       colors: {
         "spacial-gray": "#979797",

@@ -6,12 +6,14 @@
   --background: white;
   --foreground: black;
   --bg-theme: #F4F4F4;
+  --text-color-theme: black;
 }
 
 [data-theme="dark"] {
   --background: black;
   --foreground: white;
   --bg-theme: #1F1F1F;
+  --text-color-theme: white;
 }
 
 @media (prefers-color-scheme: dark) {

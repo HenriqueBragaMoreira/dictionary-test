@@ -27,6 +27,9 @@ const config: Config = {
       zIndex: {
         "1": "1",
       },
+      screens: {
+        'sm': '360px'
+      },
     },
   },
   plugins: [],
